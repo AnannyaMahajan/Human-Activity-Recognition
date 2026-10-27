@@ -1,0 +1,3 @@
+|    | Model 1    | Model 2           |   Both Correct (a) |   M1 Right / M2 Wrong (b) |   M1 Wrong / M2 Right (c) |   Both Wrong (d) |   Statistic |   p-value | Significant (alpha=0.05)   | Conclusion                                                    |
+|---:|:-----------|:------------------|-------------------:|--------------------------:|--------------------------:|-----------------:|------------:|----------:|:---------------------------|:--------------------------------------------------------------|
+|  0 | LDA (Full) | SVM_Linear (Full) |               2768 |                        68 |                        54 |               57 |     1.38525 |   0.23921 | False                      | No statistically significant difference (p = 0.2392 >= 0.05). |

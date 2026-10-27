@@ -1,0 +1,30 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (except sample_input.csv)
+data/*
+!data/sample_input.csv
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter / Testing caches
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Large models except best_model.joblib
+models/*.joblib
+!models/best_model.joblib
+
+# OS generated files
+.DS_Store
+Thumbs.db
